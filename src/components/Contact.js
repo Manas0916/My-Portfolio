@@ -55,7 +55,7 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                    <input type="text" name="user_Fname"  className="user"  placeholder="FirstName" required/>
+                      <input type="text" name="user_Fname"  className="user"  placeholder="FirstName" required/>
                     </Col>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" name="user_Lname"  className="user"  placeholder="LastName" required/>
@@ -70,8 +70,8 @@ const Contact = () => {
                       <textarea rows='6' name="message" className="user" placeholder="Message" required/>
                       <button className='mb-5 pb-3' type="submit"><span>Send</span></button> <br />
                       <div className='justify-content-center mx-5'>
-                      {spin ? <Spinner/> : ''}
-                      <h2 className='my-3'>{done && "Thanks for Contacting me"}</h2>
+                        {spin ? <Spinner/> : ''}
+                        <h2 className='my-3'>{done && "Thanks for Contacting me"}</h2>
                       </div> 
                     </Col>
                   </Row>
