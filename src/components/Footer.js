@@ -18,10 +18,12 @@ const footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end justify-content-center">
             <div className="social-icon mt-5 center-block">
               <Link href="https://www.linkedin.com/in/manasbajpai/" target='_blank'><img src={navIcon1} alt="Icon" /></Link>
-              <Link href="https://github.com/Manas0916" target='_blank'><span className='mt-1'><Github color='white'/></span></Link>
+              <Link href="https://github.com/Manas0916" target='_blank'><Github className='hii' color='white'/></Link>
               <Link href="https://www.instagram.com/manas_0916/" target='_blank'><img src={navIcon3} alt="Icon" /></Link>
-              <Link href="https://www.instagram.com/manas_0916/" target='_blank'><span className='mt-1'><Twitter color='white'/></span></Link>
+              <Link href="https://www.instagram.com/manas_0916/" target='_blank'><Twitter className='hii' color='white'/></Link>
             </div>
+            <p><span className='fw-bold'>Call:</span> +91 7991994890</p>
+            <p><span className='fw-bold'>Email:</span> manas.bajpai16@gmail.com</p>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>

@@ -43,11 +43,11 @@ const NavBar = () => {
               <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>About Me</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
+              <div className="social-icon nav-social">
                 <Nav.Link href="https://www.linkedin.com/in/manasbajpai/" target='_blank'><img src={navIcon1} alt="" /></Nav.Link>
-                <Nav.Link href="https://github.com/Manas0916" target='_blank'><span className='mt-1'><Github color='white'/></span></Nav.Link>
+                <Nav.Link href="https://github.com/Manas0916" target='_blank'><Github className='hii' color='white'/></Nav.Link>
                 <Nav.Link href="https://www.instagram.com/manas_0916/" target='_blank'><img src={navIcon3} alt="" /></Nav.Link>
-                <Nav.Link href="https://twitter.com/M_Bajpai16" target='_blank'><span className='mt-1'><Twitter color='white'/></span></Nav.Link>
+                <Nav.Link href="https://twitter.com/M_Bajpai16" target='_blank'><Twitter className='hii' color='white'/></Nav.Link>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

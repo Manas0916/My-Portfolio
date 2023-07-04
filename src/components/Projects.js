@@ -137,11 +137,11 @@ const Projects = () => {
                       {/* Coding Profile */}
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <Container className='justify-content-between m-5'>
+                      <Container className='justify-content-between'>
                         <Row>
                           {codingProfiles.map((profile, index) => (
                             <Col key={index} xs={6} sm={3}>
-                              <div className="profile m-5">
+                              <div className="profile m-4">
                                 <Link to={profile.Link} target='_blank' className='text-decoration-none text-light'>
                                   <div className="icon m-2">{profile.icon}</div>
                                   <div className="platform m-2">{profile.platform}</div>
