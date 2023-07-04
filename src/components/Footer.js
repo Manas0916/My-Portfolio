@@ -24,7 +24,7 @@ const footer = () => {
             </div>
             <p><span className='fw-bold'>Call:</span> +91 7991994890</p>
             <p><span className='fw-bold'>Email:</span> manas.bajpai16@gmail.com</p>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
