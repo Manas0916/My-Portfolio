@@ -21,8 +21,8 @@ const Projects = () => {
 
   // Experiences and Education
   const experiences = [
-    { year: '2023 - Present (6 months)', title: 'SDE Intern @ Essentia Softserv LLP', description: 'Working as a Full Stack developer and creating scalable applications using Agile Methodologies',  icon: <PersonWorkspace/> },
-    { year: '2020 - 2024', title: 'Bachelor Of Technology', description: 'Computer Science and Engineering', icon: <MortarboardFill/>}
+    { year: 'August 2023 - Present (6 months)', title: 'SDE Intern @ Essentia Softserv LLP', description: 'Working as a Full Stack developer and creating scalable applications using Agile Methodologies',  icon: <PersonWorkspace/> },
+    { year: '2020 - 2024', title: 'Dr. A.P.J. Abdul Kalam Technical University', description: 'Bachelor Of Technology - Computer Science and Engineering', icon: <MortarboardFill/>}
     // Add more experiences here
   ];
 
@@ -115,7 +115,7 @@ const Projects = () => {
 
                     {/* Experience and Education */}
                     <Tab.Pane eventKey="second">
-                      <Container className='m-5 p-5'>
+                      <Container className='d-flex justify-content-center align-items-center'>
                         <VerticalTimeline>
                           {experiences.map((experience, index) => (
                             <VerticalTimelineElement

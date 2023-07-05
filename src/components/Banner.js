@@ -62,7 +62,7 @@ const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>Hi I'm Manas</h1>
                 <h1 style={{fontSize: '3.5rem'}}>{`I try to develop`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Applications", "Visuals", "User Interfaces" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Welcome to my portfolio website! I am a Pre-Final Year student pursuing B.Tech in Computer Science and Engineering. 
+                  <p>Welcome to my portfolio website! I am a Final Year student pursuing B.Tech in Computer Science and Engineering. 
                     With a strong passion for technology, I am constantly exploring new advancements and utilizing them to solve real-life problems.
                     Thank you for visiting my portfolio website. Please feel free to explore my work and get in touch for any opportunities or collaborations.</p>
                   <a href={resume} download target="_blank" rel="noreferrer" className="text-decoration-none">

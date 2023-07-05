@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
+import { Nav, Container, Row, Col } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import { Github } from 'react-bootstrap-icons';
 import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -17,10 +17,10 @@ const footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end justify-content-center">
             <div className="social-icon mt-5 center-block">
-              <Link href="https://www.linkedin.com/in/manasbajpai/" target='_blank'><img src={navIcon1} alt="Icon" /></Link>
-              <Link href="https://github.com/Manas0916" target='_blank'><Github className='hii' color='white'/></Link>
-              <Link href="https://www.instagram.com/manas_0916/" target='_blank'><img src={navIcon3} alt="Icon" /></Link>
-              <Link href="https://www.instagram.com/manas_0916/" target='_blank'><Twitter className='hii' color='white'/></Link>
+              <Nav.Link href="https://www.linkedin.com/in/manasbajpai/" target='_blank'><img src={navIcon1} alt="Icon" /></Nav.Link>
+              <Nav.Link href="https://github.com/Manas0916" target='_blank'><Github className='hii' color='white'/></Nav.Link>
+              <Nav.Link href="https://www.instagram.com/manas_0916/" target='_blank'><img src={navIcon3} alt="Icon" /></Nav.Link>
+              <Nav.Link href="https://www.instagram.com/manas_0916/" target='_blank'><Twitter className='hii' color='white'/></Nav.Link>
             </div>
             <p><span className='fw-bold'>Call:</span> +91 7991994890</p>
             <p><span className='fw-bold'>Email:</span> manas.bajpai16@gmail.com</p>
