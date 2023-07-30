@@ -21,7 +21,7 @@ const Projects = () => {
 
   // Experiences and Education
   const experiences = [
-    { year: 'August 2023 - Present (6 months)', title: 'SDE Intern @ Essentia Softserv LLP', description: 'Working as a Full Stack developer and creating scalable applications using Agile Methodologies',  icon: <PersonWorkspace/> },
+    { year: 'August 2023 - Present (6 months)', title: 'Intern @ Essentia Softserv LLP', description: 'Working as a Full Stack developer and creating scalable applications using Agile Methodologies',  icon: <PersonWorkspace/> },
     { year: '2020 - 2024', title: 'Dr. A.P.J. Abdul Kalam Technical University', description: 'Bachelor Of Technology - Computer Science and Engineering', icon: <MortarboardFill/>}
     // Add more experiences here
   ];
@@ -45,7 +45,7 @@ const Projects = () => {
       title: "Contact Manager",
       description: "Web contact manager app which can store contacts and user can perform CRUD operations on the contacts.",
       imgUrl: img3,
-      url: 'https://github.com/Manas0916/ContactManager'
+      url: 'https://github.com/Manas0916/Contact-Manager'
     },
     {
       title: "iNotebook",
