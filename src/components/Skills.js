@@ -39,6 +39,7 @@ function Skills() {
                 My proficiency lies in the Java programming language, and I possess a deep understanding of Data Structures and Algorithms. Additionally, 
                 I have developed several projects using the MERN stack.</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+
                 {/* Java */}
                 <div className="item">
                   <ChangingProgressProvider values={[0, 60]}>
@@ -62,7 +63,7 @@ function Skills() {
 
                 {/* ReactJs */}
                 <div className="item">
-                  <ChangingProgressProvider values={[0, 50]}>
+                  <ChangingProgressProvider values={[0, 60]}>
                   {percentage => (
                     <CircularProgressbar
                       value={percentage}
@@ -79,6 +80,27 @@ function Skills() {
                       })} />)}
                   </ChangingProgressProvider>
                   <h5>ReactJs</h5>
+                </div>
+
+                {/* NextJS */}
+                <div className="item">
+                  <ChangingProgressProvider values={[0, 60]}>
+                  {percentage => (
+                    <CircularProgressbar
+                      value={percentage}
+                      text={`${percentage}%`}
+                      background
+                      backgroundPadding={20}
+                      styles={buildStyles({
+                        backgroundColor: "#151515",
+                        textColor: "#fff",
+                        textSize: '0.8rem',
+                        pathColor: "#863494",
+                        trailColor: "transparent",
+                        pathTransitionDuration: 1
+                      })} />)}
+                  </ChangingProgressProvider>
+                  <h5>NextJs</h5>
                 </div>
 
                 {/* HTML */}
