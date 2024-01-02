@@ -8,6 +8,7 @@ import img3 from '../assets/img/img3.png';
 import img4 from '../assets/img/img4.png';
 import img5 from '../assets/img/img5.png';
 import img6 from '../assets/img/img6.png';
+import img7 from '../assets/img/img7.png';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -21,7 +22,7 @@ const Projects = () => {
 
   // Experiences and Education
   const experiences = [
-    { year: 'August 2023 - Present (6 months)', title: 'Intern @ Essentia Softserv LLP', description: 'Working as a Full Stack developer and creating scalable applications using Agile Methodologies',  icon: <PersonWorkspace/> },
+    { year: 'August 2023 - December 2023 (5 months)', title: 'SDE Intern @ Essentia.dev', description: 'Worked on installing and customizing an open source software ERPNext modules and layouts on Amazon EC2 in production using docker and nginx to streamline and optimize company’s business processes which will improve the efficiency and accuracy in resource allocation.',  icon: <PersonWorkspace/> },
     { year: '2020 - 2024', title: 'Dr. A.P.J. Abdul Kalam Technical University', description: 'Bachelor Of Technology - Computer Science and Engineering', icon: <MortarboardFill/>}
     // Add more experiences here
   ];
@@ -29,6 +30,12 @@ const Projects = () => {
   // Projects
 
   const projects = [
+    {
+      title: "Cosmic Coders",
+      description: "A thriving community dedicated to empowering students and enthusiasts in the ever-evolving realm of computing. Our mission is to ignite a passion for information technology beyond the confines of traditional coursework.",
+      imgUrl: img7,
+      url: 'https://cosmiccoders-official.web.app/'
+    },
     {
       title: "Code Campus",
       description: "Online learning website dedicated to help students learn coding and providing curated resources in a single place",
@@ -72,7 +79,7 @@ const Projects = () => {
   const codingProfiles = [
     { platform: 'LeetCode', icon: <SiLeetcode fontSize={'4.5rem'}/>, username: 'Manas_16', Link: 'https://leetcode.com/Manas_16/' },
     { platform: 'HackerRank', icon: <FaHackerrank fontSize={'4.5rem'}/>, username: '@manas_16', Link: 'https://www.hackerrank.com/manas_16?hr_r=1' },
-    { platform: 'GeeksforGeeks', icon: <SiGeeksforgeeks fontSize={'4.5rem'}/>, username: 'manas_16', Link: 'https://www.codechef.com/users/manas_16' },
+    { platform: 'GeeksforGeeks', icon: <SiGeeksforgeeks fontSize={'4.5rem'}/>, username: 'manas_16', Link: 'https://auth.geeksforgeeks.org/user/manas_16' },
     { platform: 'CodeChef', icon: <SiCodechef fontSize={'4.5rem'}/>, username: 'manas_16', Link: 'https://www.codechef.com/users/manas_16' },
     // Add more coding profiles here
   ];
