@@ -22,7 +22,7 @@ const Projects = () => {
 
   // Experiences and Education
   const experiences = [
-    { year: 'August 2023 - December 2023 (5 months)', title: 'SDE Intern @ Essentia.dev', description: 'Worked on installing and customizing an open source software ERPNext modules and layouts on Amazon EC2 in production using docker and nginx to streamline and optimize company’s business processes which will improve the efficiency and accuracy in resource allocation.',  icon: <PersonWorkspace/> },
+    { year: 'August 2023 - December 2023 (5 months)', title: 'SDE Intern @ Essentia.dev', description: `Led the installation and customization of open-source ERPNext software modules and layouts on Amazon EC2 in a production environment. Implemented Docker and Nginx to enhance the efficiency and accuracy of the company's business processes, optimizing resource allocation. The successful integration streamlined operations, contributing to improved overall performance`,  icon: <PersonWorkspace/> },
     { year: '2020 - 2024', title: 'Dr. A.P.J. Abdul Kalam Technical University', description: 'Bachelor Of Technology - Computer Science and Engineering', icon: <MortarboardFill/>}
     // Add more experiences here
   ];
