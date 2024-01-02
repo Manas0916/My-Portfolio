@@ -103,6 +103,27 @@ function Skills() {
                   <h5>NextJs</h5>
                 </div>
 
+                {/* Spring Boot */}
+                <div className="item">
+                  <ChangingProgressProvider values={[0, 50]}>
+                  {percentage => (
+                    <CircularProgressbar
+                      value={percentage}
+                      text={`${percentage}%`}
+                      background
+                      backgroundPadding={20}
+                      styles={buildStyles({
+                        backgroundColor: "#151515",
+                        textColor: "#fff",
+                        textSize: '0.8rem',
+                        pathColor: "#863494",
+                        trailColor: "transparent",
+                        pathTransitionDuration: 1
+                      })} />)}
+                  </ChangingProgressProvider>
+                  <h5>Spring Boot</h5>
+                </div>
+
                 {/* HTML */}
                 <div className="item">
                   <ChangingProgressProvider values={[0, 60]}>
