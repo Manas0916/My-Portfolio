@@ -1,16 +1,16 @@
-import React from 'react';
-import { useState, useRef } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
 import emailjs from '@emailjs/browser';
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import React, { useRef, useState } from 'react';
+import { Col, Container, Row } from "react-bootstrap";
 import Spinner from 'react-bootstrap/Spinner';
+import TrackVisibility from 'react-on-screen';
+import contactImg from "../assets/img/contact-img.svg";
 
 const Contact = () => {
   const form = useRef();
     const [done, setDone] = useState(false);
     const [spin, setSpin] = useState(false);
+    const [isFailed, setIsFailed] = useState(false);
 
     const sendEmail = (e) => {
       setSpin(true);
@@ -25,6 +25,8 @@ const Contact = () => {
             form.current.reset();
           },
           (error) => {
+            setSpin(false);
+            setIsFailed(true);
             console.log(error.text);
           }
         );
@@ -72,6 +74,11 @@ const Contact = () => {
                       <div className='justify-content-center mx-5'>
                         {spin ? <Spinner/> : ''}
                         <h2 className='my-3'>{done && "Thanks for Contacting me"}</h2>
+                      </div>
+                      <div>
+                        {
+                          isFailed ? <span className='my-3'>{"Error sending mail"}</span> : <></>
+                        }
                       </div> 
                     </Col>
                   </Row>
